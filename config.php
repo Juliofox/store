@@ -1,14 +1,14 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://linux.localdomain.com.br/friedrich-store/');
+define('HTTP_SERVER', 'http://linux.localdomain.com.br/friedrich-loja/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://linux.localdomain.com.br/friedrich-store/');
+define('HTTPS_SERVER', 'http://linux.localdomain.com.br/friedrich-loja/');
 
 // DIR
-define('DIR_APPLICATION', '/var/www/html/friedrich-store/catalog/');
-define('DIR_SYSTEM', '/var/www/html/friedrich-store/system/');
-define('DIR_IMAGE', '/var/www/html/friedrich-store/image/');
+define('DIR_APPLICATION', '/var/www/html/friedrich-loja/catalog/');
+define('DIR_SYSTEM', '/var/www/html/friedrich-loja/system/');
+define('DIR_IMAGE', '/var/www/html/friedrich-loja/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
