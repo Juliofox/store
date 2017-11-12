@@ -82,6 +82,14 @@ $_['entry_points']              = 'Points';
 $_['entry_name']                = 'Customer Name';
 $_['entry_ip']                  = 'IP';
 $_['entry_date_added']          = 'Date Added';
+$_['entry_person_type']                 = 'Person';
+$_['entry_company_type']                = 'Company';
+$_['entry_person_document']             = 'Document';
+$_['entry_company_document']            = 'Document';
+$_['entry_person_regional_document']    = 'Regional Document';
+$_['entry_company_regional_document']   = 'Regional Document';
+$_['entry_company_name']                = 'Company Name';
+$_['entry_company_name2']               = 'Second Company Name';
 
 // Help
 $_['help_safe']                 = 'Set to true to avoid this customer from being caught by the anti-fraud system';
@@ -112,3 +120,12 @@ $_['error_cheque']              = 'Cheque Payee Name required!';
 $_['error_paypal']              = 'PayPal Email Address does not appear to be valid!';
 $_['error_bank_account_name']   = 'Account Name required!';
 $_['error_bank_account_number'] = 'Account Number required!';
+$_['error_exists_person_document']  = 'Warning: Person Document is already registered!';
+$_['error_exists_company_document'] = 'Warning: Company Document is already registered!';
+$_['error_type']                    = 'The type must be PF or PJ';
+$_['error_person_document']         = 'Document is invalid';
+$_['error_company_document']        = 'Document is invalid';
+$_['error_person_regional_document']= 'Regional Document is invalid';
+$_['error_company_regional_document']= 'Regional Document is invalid!';
+$_['error_company_name']            = 'Company Name must be between 1 and 60 characters!';
+$_['error_company_name2']           = 'Second Company Name must be between 1 and 60 characters!';
